@@ -8,7 +8,7 @@
 using namespace std;
 
 void min_max_sum(vector<int> arr) {
-  int total_sum = 0, max = 0, min = INT_MAX;
+  long long int total_sum = 0, max = 0, min = INT_MAX;
   for (int i = 0; i < arr.size(); i++) {
     total_sum += arr[i];
 
